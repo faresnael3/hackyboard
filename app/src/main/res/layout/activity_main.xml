@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout tools:context=".MainActivity" android:layout_gravity="center" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+    android:id="@+id/setting"
+    android:layout_width="wrap_content"
+    android:layout_height="100px"
+    android:text="permission 1"/>
+<Button
+    android:id="@+id/accessibilityButton"
+    android:layout_width="wrap_content"
+    android:layout_height="100px"
+    android:text="permission 2"/>
+
+
+</LinearLayout>
