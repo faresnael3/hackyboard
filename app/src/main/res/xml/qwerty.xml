@@ -70,16 +70,17 @@
             android:codes="108"
             android:keyEdgeFlags="right"
             android:keyLabel="l" />
+
     </Row>
 
     <Row>
-<!--        <Key-->
-<!--            android:codes="-1"-->
-<!--            android:isModifier="true"-->
-<!--            android:isSticky="true"-->
-<!--            android:keyEdgeFlags="left"-->
-<!--            android:keyIcon="@drawable/sym_keyboard_shift"-->
-<!--            android:keyWidth="15%p" />-->
+        <Key
+            android:codes="-1"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="left"
+            android:keyLabel="shift"
+            android:keyWidth="15%p" />
         <Key
             android:codes="122"
             android:keyLabel="z" />
@@ -101,12 +102,11 @@
         <Key
             android:codes="109"
             android:keyLabel="m" />
-<!--        <Key-->
-<!--            android:codes="-5"-->
-<!--            android:isRepeatable="true"-->
-<!--            android:keyEdgeFlags="right"-->
-<!--            android:keyIcon="@drawable/sym_keyboard_delete"-->
-<!--            android:keyWidth="15%p" />-->
+        <Key
+            android:codes="-5"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyWidth="15%p" />
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
@@ -122,19 +122,19 @@
 <!--            android:codes="-101"-->
 <!--            android:keyIcon="@drawable/sym_keyboard_language_switch"-->
 <!--            android:keyWidth="10%p" />-->
-<!--        <Key-->
-<!--            android:codes="32"-->
-<!--            android:isRepeatable="true"-->
-<!--            android:keyIcon="@drawable/sym_keyboard_space"-->
-<!--            android:keyWidth="35%p" />-->
         <Key
-            android:codes="46"
-            android:keyLabel="."
-            android:keyWidth="13%p" />
-<!--        <Key-->
-<!--            android:codes="10"-->
-<!--            android:keyEdgeFlags="right"-->
-<!--            android:keyIcon="@drawable/sym_keyboard_return"-->
-<!--            android:keyWidth="17%p" />-->
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyLabel="      "
+            android:keyWidth="35%p" />
+        <Key
+            android:codes="59"
+            android:keyLabel=";"
+            android:keyWidth="13%p"/>
+        <Key
+            android:codes="10"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="17%p" />
     </Row>
 </Keyboard>
